@@ -1,0 +1,56 @@
+Last login: Wed Nov 21 02:52:19 on ttys000
+SJA-Park-s17011520:~ yubin$ makedir Nov21
+-bash: makedir: command not found
+SJA-Park-s17011520:~ yubin$ makedir documents
+-bash: makedir: command not found
+SJA-Park-s17011520:~ yubin$ ls
+?
+%B5%A6%B6%9FT%9C%ABk%ACHp%85%95?:%B9?YX
+Applications
+Creative Cloud Files
+Desktop
+Documents
+Downloads
+Library
+Movies
+Music
+Pictures
+Public
+The
+This
+adobebuyplz@gmail.com Creative Cloud Files
+agency.html
+bcrypt@2.0.1
+bunnyforyou_0510@naver.com Creative Cloud Files
+node-pre-gyp
+ybpark20@kis.ac Creative Cloud Files
+ybpark4696@naver.com Creative Cloud Files
+SJA-Park-s17011520:~ yubin$ dc documnents
+Could not open file documnents: No such file or directory
+SJA-Park-s17011520:~ yubin$ dc documents
+SJA-Park-s17011520:~ yubin$ cd documents
+SJA-Park-s17011520:documents yubin$ ls
+Andy		Arduino		Fritzing	codingProjects
+SJA-Park-s17011520:documents yubin$ cd codingProjects
+SJA-Park-s17011520:codingProjects yubin$ ls
+Nov20
+SJA-Park-s17011520:codingProjects yubin$ makedir Nov21
+-bash: makedir: command not found
+SJA-Park-s17011520:codingProjects yubin$ cd Nov21
+-bash: cd: Nov21: No such file or directory
+SJA-Park-s17011520:codingProjects yubin$ mkdir Nov21
+SJA-Park-s17011520:codingProjects yubin$ cd Nov21
+SJA-Park-s17011520:Nov21 yubin$ git init
+Initialized empty Git repository in /Users/yubin/Documents/codingProjects/Nov21/.git/
+SJA-Park-s17011520:Nov21 yubin$ git remote add origin https://github.com/ybpark20/weatherapp.git
+SJA-Park-s17011520:Nov21 yubin$ git push -u origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/ybpark20/weatherapp.git'
+SJA-Park-s17011520:Nov21 yubin$ touch hello.text
+SJA-Park-s17011520:Nov21 yubin$ git add -A
+SJA-Park-s17011520:Nov21 yubin$ git commmit -m "wow
+> git push -u origin master
+> 
+
+
+

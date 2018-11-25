@@ -1,0 +1,493 @@
+Last login: Fri Nov 23 23:01:02 on ttys000
+SJA-Park-s17011520:~ yubin$ 
+SJA-Park-s17011520:~ yubin$ dc desktop
+SJA-Park-s17011520:~ yubin$ ls
+?						Downloads					The						node-pre-gyp
+%B5%A6%B6%9FT%9C%ABk%ACHp%85%95?:%B9?YX		Library						This						package.json
+Applications					Movies						adobebuyplz@gmail.com Creative Cloud Files	ybpark20@kis.ac Creative Cloud Files
+Creative Cloud Files				Music						agency.html					ybpark4696@naver.com Creative Cloud Files
+Desktop						Pictures					bcrypt@2.0.1
+Documents					Public						bunnyforyou_0510@naver.com Creative Cloud Files
+SJA-Park-s17011520:~ yubin$ dc Desktop
+SJA-Park-s17011520:~ yubin$ ls
+?						Downloads					The						node-pre-gyp
+%B5%A6%B6%9FT%9C%ABk%ACHp%85%95?:%B9?YX		Library						This						package.json
+Applications					Movies						adobebuyplz@gmail.com Creative Cloud Files	ybpark20@kis.ac Creative Cloud Files
+Creative Cloud Files				Music						agency.html					ybpark4696@naver.com Creative Cloud Files
+Desktop						Pictures					bcrypt@2.0.1
+Documents					Public						bunnyforyou_0510@naver.com Creative Cloud Files
+SJA-Park-s17011520:~ yubin$ cd Desktop
+SJA-Park-s17011520:Desktop yubin$ ls
+30738_analysis (1).pdf							Single photo
+Algodoo.pages								South china sea.pages
+Answers to the Q.pages							TIE
+COO.pages								The Only Justifiable Nation.pages
+Chatbot - List.pdf							The Only Justifiable Nation.pdf
+China Taiping Paper (!2!).pages						Theme Of Interpreter of Maladies.pages
+Chinese 3 Textbook.pdf							Trash
+Daoism and Legalsim.pages						Untitled1.css
+ElementQuiz								ViewController.swift
+ElementQuiz-Yubin.zip							Wrong
+English									Yubin Park .zip
+From where I was standing, it looked like.pages				Yubin Park.zip
+History of Africa							drive-download-20181003T022943Z-001
+Intro to App Development Curriculum 2					hahahah.pages
+Irreversible Relation - Romanticism .pages				letter chinese.pages
+Mobile App Devleopment							logo
+Modern China - 95 - opium QnA.pages					midtermpacket.pdf
+Music for Yubin.pdf							outline justify.pages
+Nonsense Poem.pages							p
+One Nation, Two Contradicting Belief Systems.pdf			poem.pdf
+Poem.pages								twitterbot
+Poetry Anthology Directions New.pages					하트 2컷
+Poetry Anthology Introduction Example.pages				지수2
+Romanticism Outline - english essay.pages				블핑 줌제 줌제
+Romanticism.pages							무롱이
+Sample Template.html							스크린샷 2018-10-24 오전 3.28.09.png
+SJA-Park-s17011520:Desktop yubin$ cd twitterbot
+SJA-Park-s17011520:twitterbot yubin$ ls
+SJA-Park-s17011520:twitterbot yubin$ npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help json` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (twitterbot) 
+version: (1.0.0) 
+description: 
+entry point: (index.js) 
+test command: 
+git repository: 
+keywords: 
+author: 
+license: (ISC) 
+About to write to /Users/yubin/Desktop/twitterbot/package.json:
+
+{
+  "name": "twitterbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes) 
+
+┌──────────────────────────────────────────────────────────┐
+│                 npm update check failed                  │
+│           Try running with sudo or get access            │
+│           to the local update config store via           │
+│ sudo chown -R $USER:$(id -gn $USER) /Users/yubin/.config │
+└──────────────────────────────────────────────────────────┘
+SJA-Park-s17011520:twitterbot yubin$ sudo npm init
+Password:
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help json` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (twitterbot) 
+version: (1.0.0) 
+description: 
+git repository: 
+keywords: 
+author: 
+license: (ISC) 
+About to write to /Users/yubin/Desktop/twitterbot/package.json:
+
+{
+  "name": "twitterbot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
+
+
+Is this OK? (yes) 
+SJA-Park-s17011520:twitterbot yubin$ ls
+package.json
+SJA-Park-s17011520:twitterbot yubin$ npm install serialport
+
+> @serialport/bindings@2.0.2 install /Users/yubin/Desktop/twitterbot/node_modules/@serialport/bindings
+> prebuild-install --tag-prefix @serialport/bindings@ || node-gyp rebuild
+
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN twitterbot@1.0.0 No description
+npm WARN twitterbot@1.0.0 No repository field.
+
++ serialport@7.0.2
+added 204 packages from 79 contributors and audited 524 packages in 9.231s
+found 0 vulnerabilities
+
+
+┌──────────────────────────────────────────────────────────┐
+│                 npm update check failed                  │
+│           Try running with sudo or get access            │
+│           to the local update config store via           │
+│ sudo chown -R $USER:$(id -gn $USER) /Users/yubin/.config │
+└──────────────────────────────────────────────────────────┘
+SJA-Park-s17011520:twitterbot yubin$ sudo npm install serialport
+npm WARN twitterbot@1.0.0 No description
+npm WARN twitterbot@1.0.0 No repository field.
+
++ serialport@7.0.2
+updated 1 package and audited 524 packages in 2.84s
+found 0 vulnerabilities
+
+SJA-Park-s17011520:twitterbot yubin$ mkdir twitterbot,js
+SJA-Park-s17011520:twitterbot yubin$ ls
+node_modules		package-lock.json	package.json		twitterbot,js
+SJA-Park-s17011520:twitterbot yubin$ cd twitterbot
+-bash: cd: twitterbot: No such file or directory
+SJA-Park-s17011520:twitterbot yubin$ cd twitterbot
+-bash: cd: twitterbot: No such file or directory
+SJA-Park-s17011520:twitterbot yubin$ cd Desktop
+-bash: cd: Desktop: No such file or directory
+SJA-Park-s17011520:twitterbot yubin$ cd
+SJA-Park-s17011520:~ yubin$ cd Desktop
+SJA-Park-s17011520:Desktop yubin$ cd twitterbot
+SJA-Park-s17011520:twitterbot yubin$ ls
+node_modules		package-lock.json	package.json		twitterbot,js
+SJA-Park-s17011520:twitterbot yubin$ mkdir twitterbot.js
+SJA-Park-s17011520:twitterbot yubin$ const SerialPort = require('serialport')
+-bash: syntax error near unexpected token `('
+SJA-Park-s17011520:twitterbot yubin$ node twitterbot.js
+internal/modules/cjs/loader.js:605
+    throw err;
+    ^
+
+Error: Cannot find module '/Users/yubin/Desktop/twitterbot/twitterbot.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:603:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:25)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:775:12)
+    at startup (internal/bootstrap/node.js:300:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:826:3)
+SJA-Park-s17011520:twitterbot yubin$ node twitterbot.js
+internal/modules/cjs/loader.js:605
+    throw err;
+    ^
+
+Error: Cannot find module '/Users/yubin/Desktop/twitterbot/twitterbot.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:603:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:25)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:775:12)
+    at startup (internal/bootstrap/node.js:300:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:826:3)
+SJA-Park-s17011520:twitterbot yubin$ ls
+node_modules		package-lock.json	package.json		twitterbot.js
+SJA-Park-s17011520:twitterbot yubin$ nano package-lock.js
+SJA-Park-s17011520:twitterbot yubin$ nano package-lock.json
+SJA-Park-s17011520:twitterbot yubin$ sudo npm install serialport
+Password:
+npm WARN twitterbot@1.0.0 No description
+npm WARN twitterbot@1.0.0 No repository field.
+
++ serialport@7.0.2
+updated 1 package and audited 524 packages in 5.592s
+found 0 vulnerabilities
+
+SJA-Park-s17011520:twitterbot yubin$ node twitterbot.js
+internal/modules/cjs/loader.js:605
+    throw err;
+    ^
+
+Error: Cannot find module '/Users/yubin/Desktop/twitterbot/twitterbot.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:603:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:25)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:775:12)
+    at startup (internal/bootstrap/node.js:300:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:826:3)
+SJA-Park-s17011520:twitterbot yubin$ ls
+node_modules		package-lock.json	package.json		twitterbot.js
+SJA-Park-s17011520:twitterbot yubin$ nano twitterbot.js
+SJA-Park-s17011520:twitterbot yubin$ node twitterbot.js
+internal/modules/cjs/loader.js:605
+    throw err;
+    ^
+
+Error: Cannot find module '/Users/yubin/Desktop/twitterbot/twitterbot.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:603:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:25)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:775:12)
+    at startup (internal/bootstrap/node.js:300:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:826:3)
+SJA-Park-s17011520:twitterbot yubin$ ls
+node_modules		package-lock.json	package.json
+SJA-Park-s17011520:twitterbot yubin$ ls
+node_modules		package-lock.json	package.json
+SJA-Park-s17011520:twitterbot yubin$ cd ../
+SJA-Park-s17011520:Desktop yubin$ ls
+30738_analysis (1).pdf							Screen Shot 2018-11-24 at 1.37.27 AM.png
+Algodoo.pages								Single photo
+Answers to the Q.pages							South china sea.pages
+COO.pages								TIE
+Chatbot - List.pdf							The Only Justifiable Nation.pages
+China Taiping Paper (!2!).pages						The Only Justifiable Nation.pdf
+Chinese 3 Textbook.pdf							Theme Of Interpreter of Maladies.pages
+Daoism and Legalsim.pages						Trash
+ElementQuiz								Untitled1.css
+ElementQuiz-Yubin.zip							ViewController.swift
+English									Wrong
+From where I was standing, it looked like.pages				Yubin Park .zip
+History of Africa							Yubin Park.zip
+Intro to App Development Curriculum 2					drive-download-20181003T022943Z-001
+Irreversible Relation - Romanticism .pages				hahahah.pages
+Mobile App Devleopment							letter chinese.pages
+Modern China - 95 - opium QnA.pages					logo
+Music for Yubin.pdf							midtermpacket.pdf
+Nonsense Poem.pages							outline justify.pages
+One Nation, Two Contradicting Belief Systems.pdf			p
+Poem.pages								poem.pdf
+Poetry Anthology Directions New.pages					twitterbot
+Poetry Anthology Introduction Example.pages				하트 2컷
+Romanticism Outline - english essay.pages				지수2
+Romanticism.pages							블핑 줌제 줌제
+Sample Template.html							무롱이
+Screen Shot 2018-11-24 at 1.37.26 AM.png				스크린샷 2018-10-24 오전 3.28.09.png
+SJA-Park-s17011520:Desktop yubin$ cd P
+SJA-Park-s17011520:P yubin$ ls
+helloworld.js		log.txt			node_modules		package-lock.json	package.json		touchtest.js		twitterbot.js
+SJA-Park-s17011520:P yubin$ node twitterbot.js
+/Users/yubin/Desktop/p/twitterbot.js:7
+	let lastMoment=new Date();
+	    ^^^^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at new Script (vm.js:83:7)
+    at createScript (vm.js:267:10)
+    at Object.runInThisContext (vm.js:319:10)
+    at Module._compile (internal/modules/cjs/loader.js:685:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:733:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:775:12)
+    at startup (internal/bootstrap/node.js:300:19)
+SJA-Park-s17011520:P yubin$ twitterbot.js
+-bash: twitterbot.js: command not found
+SJA-Park-s17011520:P yubin$ node twitterbot.js
+/Users/yubin/Desktop/p/twitterbot.js:24
+			fs.appendFile('log.txt','\n${sensorData.temparature}, ${sensorData.humidity},${moment}';func(err){
+			                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: missing ) after argument list
+    at new Script (vm.js:83:7)
+    at createScript (vm.js:267:10)
+    at Object.runInThisContext (vm.js:319:10)
+    at Module._compile (internal/modules/cjs/loader.js:685:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:733:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:775:12)
+    at startup (internal/bootstrap/node.js:300:19)
+SJA-Park-s17011520:P yubin$ node twitterbot.js
+/Users/yubin/Desktop/p/twitterbot.js:24
+			fs.appendFile('log.txt','\n${sensorData.temparature}, ${sensorData.humidity},${moment}';func(err){
+			                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: missing ) after argument list
+    at new Script (vm.js:83:7)
+    at createScript (vm.js:267:10)
+    at Object.runInThisContext (vm.js:319:10)
+    at Module._compile (internal/modules/cjs/loader.js:685:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:733:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:775:12)
+    at startup (internal/bootstrap/node.js:300:19)
+SJA-Park-s17011520:P yubin$ node twitterbot.js
+/Users/yubin/Desktop/p/twitterbot.js:24
+			fs.appendFile('log.txt','\n${sensorData.temparature}, ${sensorData.humidity},${moment}',func(err){
+			                                                                                                ^
+
+SyntaxError: missing ) after argument list
+    at new Script (vm.js:83:7)
+    at createScript (vm.js:267:10)
+    at Object.runInThisContext (vm.js:319:10)
+    at Module._compile (internal/modules/cjs/loader.js:685:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:733:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:775:12)
+    at startup (internal/bootstrap/node.js:300:19)
+SJA-Park-s17011520:P yubin$ node twitterbot.js
+/Users/yubin/Desktop/p/twitterbot.js:24
+			fs.appendFile('log.txt', '${sensorData.temparature}, ${sensorData.humidity},${moment}',func(err){
+			                                                                                               ^
+
+SyntaxError: missing ) after argument list
+    at new Script (vm.js:83:7)
+    at createScript (vm.js:267:10)
+    at Object.runInThisContext (vm.js:319:10)
+    at Module._compile (internal/modules/cjs/loader.js:685:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:733:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:775:12)
+    at startup (internal/bootstrap/node.js:300:19)
+SJA-Park-s17011520:P yubin$ node twitterbot.js
+Initialising...
+(node:56855) UnhandledPromiseRejectionWarning: Error: Error: No such file or directory, cannot open dev/cu.usbmodem141201
+(node:56855) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:56855) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+SJA-Park-s17011520:P yubin$ node twitterbot.js
+/Users/yubin/Desktop/p/twitterbot.js:24
+			fs.appendFile('log.txt', ´\n${sensorData.temparature}, ${sensorData.humidity},${moment}´,function (err){
+			                         ^
+
+SyntaxError: Invalid or unexpected token
+    at new Script (vm.js:83:7)
+    at createScript (vm.js:267:10)
+    at Object.runInThisContext (vm.js:319:10)
+    at Module._compile (internal/modules/cjs/loader.js:685:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:733:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:775:12)
+    at startup (internal/bootstrap/node.js:300:19)
+SJA-Park-s17011520:P yubin$ node twitterbot.js
+Initialising...
+(node:57050) UnhandledPromiseRejectionWarning: Error: Error: No such file or directory, cannot open dev/cu.usbmodem141201
+(node:57050) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:57050) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+SJA-Park-s17011520:P yubin$ node twitterbot.js
+Initialising...
+(node:57061) UnhandledPromiseRejectionWarning: Error: Error: No such file or directory, cannot open dev/cu.usbmodem141201
+(node:57061) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:57061) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+SJA-Park-s17011520:P yubin$ 
+SJA-Park-s17011520:P yubin$ node twitterbot.js
+Initialising...
+(node:57123) UnhandledPromiseRejectionWarning: Error: Error: No such file or directory, cannot open dev/cu.usbmodem141201
+(node:57123) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:57123) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+SJA-Park-s17011520:P yubin$ node twitterbot.js
+Initialising...
+(node:57162) UnhandledPromiseRejectionWarning: Error: Error: No such file or directory, cannot open dev/cu.usbmodem141201
+(node:57162) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:57162) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+SJA-Park-s17011520:P yubin$ node twitterbot.js
+Initialising...
+(node:57598) UnhandledPromiseRejectionWarning: Error: Error: No such file or directory, cannot open dev/cu.usbmodem141201
+(node:57598) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:57598) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+SJA-Park-s17011520:P yubin$ node twitterbot.js
+Initialising...
+(node:57649) UnhandledPromiseRejectionWarning: Error: Error: No such file or directory, cannot open dev/cu.usbmodem 1 4 1 2 0 1
+(node:57649) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:57649) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+SJA-Park-s17011520:P yubin$ 
+SJA-Park-s17011520:P yubin$ node twitterbot.js
+Initialising...
+(node:57709) UnhandledPromiseRejectionWarning: Error: Error: Resource busy, cannot open /dev/cu.usbmodem141201
+(node:57709) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:57709) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+SJA-Park-s17011520:P yubin$ node twitterbot.js
+Initialising...
+open
+{ [Error: EISDIR: illegal operation on a directory, open 'log.txt'] errno: -21, code: 'EISDIR', syscall: 'open', path: 'log.txt' }
+{ [Error: EISDIR: illegal operation on a directory, open 'log.txt'] errno: -21, code: 'EISDIR', syscall: 'open', path: 'log.txt' }
+{ [Error: EISDIR: illegal operation on a directory, open 'log.txt'] errno: -21, code: 'EISDIR', syscall: 'open', path: 'log.txt' }
+cd log.txt
+{ [Error: EISDIR: illegal operation on a directory, open 'log.txt'] errno: -21, code: 'EISDIR', syscall: 'open', path: 'log.txt' }
+{ [Error: EISDIR: illegal operation on a directory, open 'log.txt'] errno: -21, code: 'EISDIR', syscall: 'open', path: 'log.txt' }
+{ [Error: EISDIR: illegal operation on a directory, open 'log.txt'] errno: -21, code: 'EISDIR', syscall: 'open', path: 'log.txt' }
+{ [Error: EISDIR: illegal operation on a directory, open 'log.txt'] errno: -21, code: 'EISDIR', syscall: 'open', path: 'log.txt' }
+{ [Error: EISDIR: illegal operation on a directory, open 'log.txt'] errno: -21, code: 'EISDIR', syscall: 'open', path: 'log.txt' }
+Logged data:  2018-11-23T17:40:45.133Z
+Logged data:  2018-11-23T17:40:50.163Z
+Logged data:  2018-11-23T17:40:55.189Z
+Logged data:  2018-11-23T17:41:00.223Z
+Logged data:  2018-11-23T17:41:05.245Z
+Logged data:  2018-11-23T17:41:10.275Z
+Logged data:  2018-11-23T17:41:15.300Z
+Logged data:  2018-11-23T17:41:20.331Z
+Logged data:  2018-11-23T17:41:25.357Z
+Logged data:  2018-11-23T17:41:30.387Z
+Logged data:  2018-11-23T17:41:35.413Z
+Logged data:  2018-11-23T17:41:40.442Z
+Logged data:  2018-11-23T17:41:45.470Z
+Logged data:  2018-11-23T17:41:50.498Z
+Logged data:  2018-11-23T17:41:55.524Z
+Logged data:  2018-11-23T17:42:00.554Z
+Logged data:  2018-11-23T17:42:05.580Z
+Logged data:  2018-11-23T17:42:10.610Z
+Logged data:  2018-11-23T17:42:15.636Z
+Logged data:  2018-11-23T17:42:20.666Z
+Logged data:  2018-11-23T17:42:25.692Z
+Logged data:  2018-11-23T17:42:30.722Z
+Logged data:  2018-11-23T17:42:35.748Z
+Logged data:  2018-11-23T17:42:40.778Z
+Logged data:  2018-11-23T17:42:45.808Z
+Logged data:  2018-11-23T17:42:50.834Z
+Logged data:  2018-11-23T17:42:55.864Z
+Logged data:  2018-11-23T17:43:00.890Z
+Logged data:  2018-11-23T17:43:05.920Z
+Logged data:  2018-11-23T17:43:10.946Z
+Logged data:  2018-11-23T17:43:15.976Z
+Logged data:  2018-11-23T17:43:21.001Z
+Logged data:  2018-11-23T17:43:26.032Z
+Logged data:  2018-11-23T17:43:31.058Z
+Logged data:  2018-11-23T17:43:36.088Z
+Logged data:  2018-11-23T17:43:41.113Z
+Logged data:  2018-11-23T17:43:46.143Z
+Logged data:  2018-11-23T17:43:51.169Z
+Logged data:  2018-11-23T17:44:01.086Z
+Logged data:  2018-11-23T17:44:06.116Z
+Logged data:  2018-11-23T17:44:11.142Z
+Logged data:  2018-11-23T17:44:16.172Z
+Logged data:  2018-11-23T17:44:21.198Z
+Logged data:  2018-11-23T17:44:30.668Z
+Logged data:  2018-11-23T17:44:35.693Z
+Logged data:  2018-11-23T17:44:40.723Z
+Logged data:  2018-11-23T17:44:45.749Z
+Logged data:  2018-11-23T17:44:50.779Z
+Logged data:  2018-11-23T17:44:55.805Z
+Logged data:  2018-11-23T17:45:00.835Z
+Logged data:  2018-11-23T17:45:05.861Z
+Logged data:  2018-11-23T17:45:10.891Z
+Logged data:  2018-11-23T17:45:15.917Z
+Logged data:  2018-11-23T17:45:20.947Z
+Logged data:  2018-11-23T17:45:25.973Z
+Logged data:  2018-11-23T17:45:31.003Z
+Logged data:  2018-11-23T17:45:36.029Z
+^C
+SJA-Park-s17011520:P yubin$ node twitterbot.js
+Initialising...
+open
+Logged data:  2018-11-23T17:48:22.052Z
+Logged data:  2018-11-23T17:48:27.078Z
+Logged data:  2018-11-23T17:48:32.108Z
+Logged data:  2018-11-23T17:48:37.134Z
+Logged data:  2018-11-23T17:48:42.164Z
+Logged data:  2018-11-23T17:48:47.190Z
+Logged data:  2018-11-23T17:48:52.220Z
+Logged data:  2018-11-23T17:48:57.246Z
+Logged data:  2018-11-23T17:49:02.276Z
+^C
+SJA-Park-s17011520:P yubin$ 
